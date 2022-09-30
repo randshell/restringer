@@ -17,5 +17,6 @@ module.exports = {
 	resolveProxyCalls: require(__dirname + '/resolveProxyCalls'),
 	resolveProxyReferences: require(__dirname + '/resolveProxyReferences'),
 	resolveRedundantLogicalExpressions: require(__dirname + '/resolveRedundantLogicalExpressions'),
+	unwrapArrayFunction: require(__dirname + '/unwrapArrayFunction'),
 	unwrapFunctionShells: require(__dirname + '/unwrapFunctionShells'),
 };
